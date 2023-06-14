@@ -1,12 +1,8 @@
-import About from './components/About'
-import Header from './components/Header'
+import MainRouter from './router'
 
 function App() {
   return (
-    <>
-      <Header />
-      <About />
-    </>
+    <MainRouter />
   )
 }
 
