@@ -1,8 +1,11 @@
+import ContextProvider from './context/provider'
 import MainRouter from './router'
 
 function App() {
   return (
-    <MainRouter />
+    <ContextProvider>
+      <MainRouter />
+    </ContextProvider>
   )
 }
 

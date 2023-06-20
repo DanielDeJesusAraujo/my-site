@@ -7,7 +7,7 @@ const MainAbout = styled.section`
   justify-content: space-between;
   align-items: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 780px) {
     height: 100vh;
     flex-direction: column;
     align-items: center;
@@ -16,6 +16,7 @@ const MainAbout = styled.section`
 
     h1 {
       padding: 1em 0;
+      font-size: 1.5rem;
     }
   }
 `;
@@ -33,12 +34,12 @@ const Welcomes = styled.section`
   padding: 0 2em;
   width: 40%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 780px) {
     padding: 0;
     color: black;
     background: none;
     width: 100%;
-    padding: 3em .5em;
+    padding: 1em .5em;
   }
 `;
 
@@ -48,7 +49,7 @@ const Ilustration = styled.section`
     height: 90vh;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 780px) {
     img {
       width: 95%;
       height: auto;

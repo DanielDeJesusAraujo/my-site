@@ -42,7 +42,7 @@ const MainHeader = styled.section`
   }
 
   
-  @media (max-width: 768px) {
+  @media (max-width: 780px) {
     .github-btn {
       display: none;
     }

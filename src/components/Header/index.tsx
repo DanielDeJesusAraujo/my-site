@@ -13,6 +13,7 @@ function Header() {
           <a href="#" onClick={() => toaster.notify('Home')} >Home</a>
           <a href="#" onClick={() => toaster.notify('About')} >About</a>
           <a href="#" onClick={() => toaster.notify('Contact')} >Contact</a>
+          <a href="#" onClick={() => toaster.notify('Projects')} >Projects</a>
         </nav>
       </section>
       <section className="menu-header">
@@ -24,6 +25,7 @@ function Header() {
                 <Menu.Item onSelect={() => toaster.notify('Share')}>Sobre</Menu.Item>
                 <Menu.Item onSelect={() => toaster.notify('Move')}>GitHub</Menu.Item>
                 <Menu.Item onSelect={() => toaster.notify('Rename')}>Linkedin</Menu.Item>
+                <Menu.Item onSelect={() => toaster.notify('Logout')}>Projects</Menu.Item>
               </Menu.Group>
             </Menu>
           }
