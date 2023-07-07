@@ -5,9 +5,14 @@ import { myProjects } from "./utils"
 function Projects() {
   return (
     <MainProjects>
-      {myProjects.map((project) => (
-        <ProjectsCards key={project.id} project={project} />
-      ))}
+      <h1 className="section-projects-title">Meus Projetos</h1>
+      <section className="container-projects">
+        {myProjects.map((project) => {
+          return (
+            <ProjectsCards key={project.id} project={project} />
+          )
+        })}
+      </section>
     </MainProjects>
   )
 }

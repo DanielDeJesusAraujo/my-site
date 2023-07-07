@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const MainHeader = styled.section`
-  background-color: #ffffff;
+  background-color: var(--primary-background);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,7 +56,7 @@ const MainHeader = styled.section`
     }
 
     .logo-svg {
-      width: 6em;
+      width: 7em;
       height: 3em;
     }
   }

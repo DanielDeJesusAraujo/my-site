@@ -3,5 +3,6 @@ export default interface IProjects {
   title: string;
   description: string;
   image: string;
-  url: string;
+  pageUrl: string;
+  codeUrl: string;
 }

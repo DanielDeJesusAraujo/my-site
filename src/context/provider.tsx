@@ -1,10 +1,11 @@
-import { useMemo, useState } from "react"
+import { useState } from "react"
 import ProjectsContext from "."
+import IContext from "../interfaces/IContext"
 
 function ContextProvider({ children }: { children: React.ReactNode }) {
-  const [state, setState] = useState({})
+  const [state, setState] = useState()
   
-  const value = {
+  const value: IContext = {
     state,
     setState
   }
