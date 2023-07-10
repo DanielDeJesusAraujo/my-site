@@ -280,14 +280,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     align-self: flex-end;
     .links {
       display: flex;
-    
       align-items: center;
       justify-content: center;
       text-decoration: none;
       font-family: 'Source Code Pro', monospace;
       background-color: var(--purple-dark);
       color: var(--black);
-      border-radius: 0%;
+      border-radius: 18px;
       width: 7em;
       height: 2.5em;
     } 
@@ -316,13 +315,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
 
   @media screen and (max-width: 780px) {
-    width: 100vh;
     padding: 0;
     border: 1px solid #9580ff30;
     padding: .5em;
     border-radius: 8px;
     box-shadow: inset 0 0 5px var(--purple);
-    /* width: 21em; */
+    width: 21em;
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -331,7 +329,6 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `;function OE({project:e,className:t}){const{title:r,description:n,image:o}=e;return g.jsxs(xE,{className:t,children:[g.jsx("img",{src:o,alt:"imagem do projeto"}),g.jsxs("body",{children:[g.jsx("h1",{children:r}),g.jsx("p",{style:{color:"var(--Foreground)"},children:n}),g.jsxs("div",{className:"d-flex gap-3 btn-group",children:[g.jsx("a",{className:"links",href:e.pageUrl,target:"_blank",children:"Visitar"}),g.jsx("a",{className:"links",href:e.codeUrl,target:"_blank",children:"código"})]})]})]})}const _E=Mr.section`
   background-color: var(--secondary-background);
   padding: 2rem 0;
-  overflow-x: scroll;
 
   .section-projects-title {
     text-align: center;
