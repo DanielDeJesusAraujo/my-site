@@ -263,7 +263,6 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   display: flex;
   flex-direction: column;
   gap: 1em;
-  margin: 0 1em;
 
   @keyframes pulse {
     0% {
@@ -298,7 +297,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
 
   img {
-    border-radius: 8px;
+    border-radius: 10px;
   }
 
   body {
@@ -318,13 +317,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     padding: 0;
     border: 1px solid #9580ff30;
     padding: .5em;
-    border-radius: 8px;
+    border-radius: 18px;
     box-shadow: inset 0 0 5px var(--purple);
-    width: 21em;
+    width: 97.5%;
     display: flex;
     flex-direction: column;
     gap: 1em;
-    margin: 0 1em;
+    margin: 0 .3em;
   }
 `;function OE({project:e,className:t}){const{title:r,description:n,image:o}=e;return g.jsxs(xE,{className:t,children:[g.jsx("img",{src:o,alt:"imagem do projeto"}),g.jsxs("body",{children:[g.jsx("h1",{children:r}),g.jsx("p",{style:{color:"var(--Foreground)"},children:n}),g.jsxs("div",{className:"d-flex gap-3 btn-group",children:[g.jsx("a",{className:"links",href:e.pageUrl,target:"_blank",children:"Visitar"}),g.jsx("a",{className:"links",href:e.codeUrl,target:"_blank",children:"código"})]})]})]})}const _E=Mr.section`
   background-color: var(--secondary-background);
