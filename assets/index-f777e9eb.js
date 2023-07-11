@@ -352,8 +352,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     }
   }
 `,PT="/my-site/assets/trivia-47b1bcd4.png",$T="/my-site/assets/solar_sistem-3dffcde9.png",NT="/my-site/assets/wallet-63f206fe.png",RT="/my-site/assets/shopping-cart-06327cc5.png",zT=[{id:1,title:"Wallet",description:"O projeto Wallet é uma aplicação desenvolvida com ReactJS, styled-components, CSS, Context API e Fetch API. Ele permite salvar despesas em uma tabela, incluindo nome, descrição, moeda, método de pagamento e categoria. Os usuários podem adicionar, editar e excluir despesas. A aplicação é estilizada com styled-components e utiliza a Context API para gerenciamento de estado. A Fetch API é usada para comunicação com uma API externa. O objetivo do projeto é fornecer uma ferramenta simples e prática para o registro e gerenciamento de despesas.",image:NT,pageUrl:"https://danieldejesusaraujo.github.io/Trywallet/",codeUrl:"https://github.com/DanielDeJesusAraujo/Trywallet"},{id:2,title:"Solar system",description:"O projeto Solar System é um site dedicado a exibir as missões espaciais lançadas ao espaço, organizadas em forma de cards. Neste projeto, utilizamos tecnologias como HTML, CSS e JavaScript para criar uma interface intuitiva e informativa. No site Solar System, cada missão é representada por um card contendo informações relevantes. Cada card exibe o nome da missão, o ano de lançamento, a agência espacial responsável e uma breve descrição.",image:$T,pageUrl:"https://danieldejesusaraujo.github.io/Solar-system/",codeUrl:"https://github.com/DanielDeJesusAraujo/Solar-system"},{id:3,title:"Trivia game",description:"Desenvolvemos um projeto de Trivia em um grupo de estudos utilizando ReactJS, styled-components, Bootstrap e CSS. A aplicação é uma experiência interativa de perguntas e respostas, com uma interface responsiva e estilizada. Utilizamos componentes modulares, estilização CSS-in-JS e recursos do Bootstrap para agilizar o desenvolvimento e garantir uma aparência consistente. O resultado é uma aplicação de Trivia envolvente, onde os usuários podem testar seus conhecimentos em diversas áreas.",image:PT,pageUrl:"https://danieldejesusaraujo.github.io/game-trivia/",codeUrl:"https://github.com/DanielDeJesusAraujo/game-trivia"},{id:4,title:"chopping cart",description:'O "Shopping Card" é um projeto desenvolvido em HTML, CSS e JavaScript que consiste em um site de compras. Os usuários podem ver produtos, adicioná-los ao carrinho e verificar o valor total da compra. O projeto utiliza a API do Mercado Livre para obter informações atualizadas sobre os produtos disponíveis.',image:RT,pageUrl:"https://refactored-guacamole-69mo2zr.pages.github.io/",codeUrl:"https://github.com/DanielDeJesusAraujo/shopping-cart"}];function MT(){return g.jsxs(kT,{children:[g.jsx("h1",{className:"section-projects-title",children:"Meus Projetos"}),g.jsx("section",{className:"container-projects",children:zT.map(e=>g.jsx(TT,{project:e},e.id))})]})}const AT=cr.section`
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  padding: 1em 0;
   background-color: var(--primary-background);
+  
   h1 {
     color: var(--green);
     text-align: center;
@@ -441,7 +443,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 2rem 0;
+  padding: 1rem .5em;
   height: 50%;
 
   .contacts, .links{
